@@ -1,0 +1,22 @@
+@import "default/normalize.css";
+@import "default/reset.css";
+
+/* Other */
+@import "other/variables.css";
+@import "other/fonts.css";
+@import "other/general-styles.css";
+
+/* Blocks */
+@import "blocks/body.css";
+
+/* Header */
+@import "blocks/header/header.css";
+
+/* Main */
+@import "blocks/main/main.css";
+
+/* Sidebar */
+@import "blocks/sidebar/sidebar.css";
+
+/* Footer */
+@import "blocks/footer/footer.css";

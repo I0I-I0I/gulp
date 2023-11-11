@@ -1,0 +1,18 @@
+.page {
+	font-family: var(--font-main);
+	font-size: var(--font-size);
+	line-height: 1.4;
+	letter-spacing: 0.02em;
+	scroll-behavior: smooth;
+}
+
+.page__body {
+	color: var(--color);
+	background-color: var(--color-bg);
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows:
+		min-content
+		1fr
+		min-content;
+}

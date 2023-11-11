@@ -1,0 +1,7 @@
+{
+	"extends": ["stylelint-config-standard"],
+	"rules": {
+		"import-notation": "string",
+		"selector-class-pattern": "^([_a-z][a-z_0-9]*)(-[a-z_0-9]+)*$"
+	}
+}

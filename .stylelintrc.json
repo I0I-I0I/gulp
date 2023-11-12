@@ -1,7 +1,36 @@
 {
-	"extends": ["stylelint-config-standard"],
+	"plugins": [
+		"@namics/stylelint-bem",
+		"stylelint-use-nesting",
+		"stylelint-no-unresolved-module",
+		"stylelint-declaration-block-no-ignored-properties",
+		"stylelint-group-selectors",
+		"@isnotdefined/stylelint-plugin"
+	],
 	"rules": {
 		"import-notation": "string",
-		"selector-class-pattern": "^([_a-z][a-z_0-9]*)(-[a-z_0-9]+)*$"
-	}
+
+		"plugin/stylelint-bem-namics": {
+			"patternPrefixes": [],
+			"helperPrefixes": []
+		},
+
+		"csstools/use-nesting": "always",
+
+		"plugin/no-unresolved-module": {
+			"alias": {
+				"assets": "pebbles"
+			},
+			"modules": ["node_modules", "local_modules"]
+		},
+
+		"plugin/declaration-block-no-ignored-properties": true,
+
+		"plugin/stylelint-group-selectors": true,
+
+		"@isnotdefined/no-disable": true,
+		"@isnotdefined/no-obsolete": true,
+		"@isnotdefined/unit-step": true
+	},
+	"ignoreDisables": true
 }

@@ -7,11 +7,13 @@ npm install gulp-postcss --save-dev
 
 ## For project:
 
-npm i -D gulp del gulp-file-include gulp-replace gulp-webp-html-nosvg gulp-version-number gulp-plumber gulp-notify browser-sync gulp-rename gulp-clean-css gulp-webpcss gulp-autoprefixer gulp-group-css-media-queries postcss-import webp-converter@2.2.3 gulp-webp gulp-imagemin gulp-newer gulp-svg-sprite postcss-media-minmax postcss-nesting
-
 ### Linters:
 
-npm install -D stylelint stylelint-config-standard postcss-lit
+npm install -D stylelint
+
+### StyleLint plugins
+
+npm install stylelint-no-unresolved-module @namics/stylelint-bem stylelint-use-nesting stylelint-declaration-block-no-ignored-properties stylelint-group-selectors @isnotdefined/stylelint-plugin --save-dev
 
 ### For javascript:
 

@@ -16,12 +16,4 @@
 	/* Colors names */
 	--white: 255 255 255;
 	--black: 0 0 0;
-
-	/* Colors */
-	--color: rgb(var(--eerie-black));
-	--color-invert: rgb(var(--shadows));
-	--color-bg: rgb(var(--white));
-	--color-bg-invert: rgb(
-		var(--white)
-	);
 }

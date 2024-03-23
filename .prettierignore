@@ -1,5 +1,5 @@
 /**/reset.css
-/**/normalize.css
 /**/index.min.css
 /**/app.min.js
 src/*.html
+dist/**/*.*

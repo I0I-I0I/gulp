@@ -1,2 +1,4 @@
+**/*.*
+!**/*.css
 dist/**/*.css
 src/styles/default/*.css

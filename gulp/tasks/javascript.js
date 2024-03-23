@@ -8,17 +8,17 @@ export const js = () => {
 				app.plugins.notify.onError({
 					title: "js",
 					message: "Error: <%= error.message %>",
-				})
-			)
+				}),
+			),
 		)
 
 		.pipe(
 			webpack({
-				mode: "production",
+				mode: "development",
 				output: {
 					filename: "app.min.js",
 				},
-			})
+			}),
 		)
 
 		.pipe(app.gulp.dest(app.path.build.js))

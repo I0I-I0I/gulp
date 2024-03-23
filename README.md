@@ -13,7 +13,7 @@ npm install -D stylelint
 
 ### StyleLint plugins
 
-npm install stylelint-no-unresolved-module @namics/stylelint-bem stylelint-use-nesting stylelint-declaration-block-no-ignored-properties stylelint-group-selectors @isnotdefined/stylelint-plugin --save-dev
+npm install stylelint-no-unresolved-module @namics/stylelint-bem stylelint-use-nesting stylelint-declaration-block-no-ignored-properties stylelint-group-selectors @isnotdefined/stylelint-plugin --save-dev --legacy-peer-deps
 
 ### For javascript:
 
@@ -26,14 +26,3 @@ npm i -D gulp-fonter gulp-ttf2woff2
 ### For sass:
 
 npm i -D gulp-sass sass
-
-## Plugin for vscode
-
-### path autocomplete
-
-Add to your settings.json:\
-"path-autocomplete.pathMappings": {\
-"@images": "@{folder}/src/images",\
-"@styles": "@{folder}/src/styles",\
-"@js": "@{folder}/src/js"\
-}

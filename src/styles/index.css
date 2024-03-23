@@ -1,4 +1,3 @@
-@import "default/normalize.css";
 @import "default/reset.css";
 
 /* Other */
@@ -8,15 +7,3 @@
 
 /* Blocks */
 @import "blocks/body.css";
-
-/* Header */
-@import "blocks/header/header.css";
-
-/* Main */
-@import "blocks/main/main.css";
-
-/* Sidebar */
-@import "blocks/sidebar/sidebar.css";
-
-/* Footer */
-@import "blocks/footer/footer.css";

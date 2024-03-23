@@ -1,3 +1,8 @@
+@import "./header.css";
+@import "./sidebar.css";
+@import "./footer.css";
+@import "./main/main.css";
+
 .page {
 	font-family: var(--font-main);
 	font-size: var(--font-size);
@@ -7,9 +12,18 @@
 }
 
 .page__body {
+	--scroll-bar: calc(-1 * (100vw - 100%));
+	--body-width: calc(100vw - var(--scroll-bar));
+	width: var(--body-width);
+	margin: 0
+		calc(
+			-50vw + 50% + (var(--scroll-bar) / 2)
+		);
+	min-height: 100dvh;
+	max-width: 100dvw;
+
 	color: var(--color);
 	background-color: var(--color-bg);
-	min-height: 100vh;
 	display: grid;
 	grid-template-rows:
 		min-content

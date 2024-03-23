@@ -21,10 +21,6 @@ import { images } from "./gulp/tasks/images.js"
 import { svgSprive } from "./gulp/tasks/svgSprive.js"
 
 import { fonts } from "./gulp/tasks/fonts.js"
-// import { otfToTtf, ttfToWoff, fontsStyle } from './gulp/tasks/fonts.js'
-// const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle)
-
-// import { scss } from './gulp/tasks/scss.js'
 
 // watcher
 function watcher() {
